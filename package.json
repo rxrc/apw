@@ -1,0 +1,26 @@
+{
+  "name": "@rxrc/apw",
+  "version": "0.0.0",
+  "description": "Awesome Pulseaudio Widget",
+  "homepage": "https://github.com/rxrc/apw",
+  "bugs": "https://github.com/rxrc/apw/issues",
+  "repository": "rxrc/apw",
+  "author": {
+    "name": "mokasin",
+    "email": "mokasin@users.noreply.github.com"
+  },
+  "contributors": [
+    {
+      "name": "Evan Sosenko",
+      "email": "razorx@evansosenko.com"
+    }
+  ],
+  "files": [
+    "pulseaudio.lua",
+    "widget.lua"
+  ],
+  "scripts": {
+    "test": "true",
+    "postversion": "git push && git push --tags"
+  }
+}
